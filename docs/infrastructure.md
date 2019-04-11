@@ -23,4 +23,12 @@ Source edit [lls-infrastructure-diagram draw.io](https://www.draw.io/#Hlooseleaf
 
 ### Notes
 
-[NGINX Reverse Proxy](https://www.nginx.com/resources/glossary/reverse-proxy-server/)
+1. [NGINX Reverse Proxy](https://www.nginx.com/resources/glossary/reverse-proxy-server/)
+2. [gitlab CI/CD Tutorial](https://medium.com/devopslinks/beginner-friendly-introduction-to-gitlab-ci-cd-1c80ee5ba0ae)
+3. [gitlab nodejs app deploy](https://medium.com/@seulkiro/deploy-node-js-app-with-gitlab-ci-cd-214d12bfeeb5)
+4. [gitlab examples](https://gitlab.com/gitlab-examples)
+5. [gitlab CI/CD](https://about.gitlab.com/2016/03/01/gitlab-runner-with-docker/)
+6. [gitlab nginx https docker how-to](https://www.digitalocean.com/community/tutorials/how-to-secure-a-containerized-node-js-application-with-nginx-let-s-encrypt-and-docker-compose)
+7. [gitlab autodevops](https://docs.gitlab.com/ee/topics/autodevops/#auto-monitoring)
+
+[markdown cheat sheet](http://blog.christrees.com/wip/markdowntest.html)
