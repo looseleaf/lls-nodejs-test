@@ -4,10 +4,17 @@ Goal: Looseleaf edge cloud infrasture setup, test, monitoring and useablity stud
 
 ## Task
 
-| Task           | Goal | Status  |
-| Setup FreeNAS  | User storage access [lls-FreeNAS Setup]() document | |
-| Setup gitLab   | User access [lls-gitLab Setup]() document  | |
-| Setup firewall | Remote access by User [lls-firewall Setup]() document. | |
+| Task            | Goal | Status  |
+| --------------- | ------------------------------------------------------ | -------- |
+| Setup FreeNAS   | User storage access [lls-FreeNAS Setup]() document | WIP-Works but needs doc |
+| Setup gitLab    | User access [lls-gitLab Setup]() document  | WIP-Works but needs doc |
+| Setup firewall  | Remote access by User [lls-firewall Setup]() document. | WIP-Works but needs doc |
+| proxmox cluster | Remote access by User [lls-proxmox Setup]() document. | WIP-Works but needs doc |
+| deploy Test     | One button deploy and validate [lls-nodejs-test]() document. | no progress |
+| load Test     | One button load test [lls-nodejs-load]() document. | no progress |
+| dr Test       | Test digital rebar | no progress |
+| bm node add | Test a bare metal node add | no progress |
+| dr package matrix test | tbd | tbd |
 
 ## Infrastructure Diagram
 
