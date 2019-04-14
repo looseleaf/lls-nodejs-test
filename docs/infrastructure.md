@@ -1,12 +1,13 @@
-# lls infrastructure setup
+# Infrastructure
 
-Attempt to document infrastructure
+Goal: Looseleaf edge cloud infrasture setup, test, monitoring and useablity study.
 
-| Link | Description |
-| ----------- | ----------- |
-| [gitlab looseleaf](https://gitlab.com/looseleaf) | gitlab looseleaf group |
-| [github lls-nodejs-test](https://github.com/looseleaf/lls-nodejs-test) | github lls-nodejs-test project |
-| [lls-infrastructure-diagram draw.io](https://www.draw.io/#Hlooseleaf%2Flls-nodejs-test%2Fmaster%2Fdocs%2Fimages%2Flls-infrastructure-diagram.drawio) | lls-infrastructure-diagram via draw.io |
+## Task
+
+| Task           | Goal | Status  |
+| Setup FreeNAS  | User storage access [lls-FreeNAS Setup]() document | |
+| Setup gitLab   | User access [lls-gitLab Setup]() document  | |
+| Setup firewall | Remote access by User [lls-firewall Setup]() document. | |
 
 ## Infrastructure Diagram
 
