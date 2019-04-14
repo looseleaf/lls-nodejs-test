@@ -15,6 +15,8 @@ Goal: Looseleaf edge cloud infrasture setup, test, monitoring and useablity stud
 | dr Test       | Test digital rebar | no progress |
 | bm node add | Test a bare metal node add | no progress |
 | dr package matrix test | tbd | tbd |
+| k8s project | Test a k8s project | np |
+| ceph testing | Test using ceph on C7000 nodes | np |
 
 ## Infrastructure Diagram
 
