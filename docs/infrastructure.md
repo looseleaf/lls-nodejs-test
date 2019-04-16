@@ -2,6 +2,21 @@
 
 Goal: Looseleaf edge cloud infrasture setup, test, monitoring and useablity study.
 
+## Network Map (internal)
+
+| FQDN            | IP-LAN        | MAC               | dev     | HW            | Description |
+| --------------- | ------------- | ----------------- | ------- | ------------- | ------------ |
+| [xfirewall](http://192.168.1.1) | 192.168.1.1   | 1c:87:2c:c0:6e:50 | em0     | ASUS RT-N66R  | temp fw/router |
+| [x freenas](http://192.168.1.2) | 192.168.1.2   | 00:15:17:4F:E7:7E | em0     | Dell SR1560SF | left RJ14 |
+| [xxxxxxxxxxx]()                 | xxxxxxxxxxxx  | 00:15:17:4F:E7:7F | em1     | Dell SR1560SF | rght RJ14 not used |
+| [gitlab.2cld.net](http://192.168.1.3) | 192.168.1.3   | 00:15:17:b1:cf:59 | epair0b | gitlab bsd jail   | virtural hw |
+| [cfngnx.2cld.net](http://192.168.1.4) | 192.168.1.4   | 00:15:17:EE:CF:D6 | epair0b | cf-nginx bsd jail | virtural hw |
+| [wip005.2cld.net](http://192.168.1.5) | 192.168.1.5   | 00:15:17:-------- | epair0b | TBD--------jail   | virtural hw |
+| [plex.2cld.net](http://192.168.1.6)   | 192.168.1.6   | 00:15:17:14:FA:0A | epair0b | plex bsd jail     | virtural hw |
+| ----------------- | 192.168.1.x   | 00:15:17:b1:cf:xx | epair0b | vm bsd jail   | virtural hw |
+| -- DHCP Start   | 192.168.1.20  | ----------------- | ------- | ------------- | ---- |
+| -- DHCP End     | 192.168.1.199 | ----------------- | ------- | ------------- | ---- |
+
 ## Task
 
 | Task            | Goal | Status  |
@@ -23,14 +38,15 @@ Goal: Looseleaf edge cloud infrasture setup, test, monitoring and useablity stud
 
 ![lls-infrastructure-diagram svg](images/lls-infrastructure-diagram.svg)
 
-Source edit [lls-infrastructure-diagram draw.io](https://www.draw.io/#Hlooseleaf%2Flls-nodejs-test%2Fmaster%2Fdocs%2Fimages%2Flls-infrastructure-diagram.drawio)
+Source edit [lls-infrastructure-diagram draw.io](https://www.draw.io/#Hlooseleaf%2Flls-nodejs-test%2Fmaster%2Fdocs%2Fimages%2Flls-infrastructure-diagram.drawio
+
 
 ### Server H/W
 
 | Device | Description | Link |
 | ----------- | ---------------- | --------- |
-| FreeNAS HB  | CPU HB           | [cpu Xeon E3-1230](https://ark.intel.com/content/www/us/en/ark/products/97474/intel-xeon-processor-e3-1230-v6-8m-cache-3-50-ghz.html) |
-| FreeNAS HB  | CPU CF           | [cpu Xeon E5462](https://ark.intel.com/content/www/us/en/ark/products/33084/intel-xeon-processor-e5462-12m-cache-2-80-ghz-1600-mhz-fsb.html) |
+| cfx grid node  | CPU HB           | [cpu Xeon E3-1230](https://ark.intel.com/content/www/us/en/ark/products/97474/intel-xeon-processor-e3-1230-v6-8m-cache-3-50-ghz.html) |
+| FreeNAS  | CPU CF           | [cpu Xeon E5462](https://ark.intel.com/content/www/us/en/ark/products/33084/intel-xeon-processor-e5462-12m-cache-2-80-ghz-1600-mhz-fsb.html) |
 
 ### Notes
 
