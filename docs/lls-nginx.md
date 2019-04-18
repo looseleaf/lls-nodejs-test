@@ -25,5 +25,7 @@ Goal: Looseleaf https remote access to web portals.
 - [NGINX.com](https://www.nginx.com/)
 - [letsencrypt.org](https://letsencrypt.org/)
 - [NGINX Lets Encrypt with certbot](https://www.nginx.com/blog/using-free-ssltls-certificates-from-lets-encrypt-with-nginx/)
+- [nginx-letsencrypt-freebs](https://www.digitalocean.com/community/tutorials/how-to-secure-nginx-letsencrypt-freebsd)
+- [nginx-freebsd-11-2](https://www.digitalocean.com/community/tutorials/how-to-install-nginx-freebsd-11-2)
 
 [markdown cheat sheet](http://blog.christrees.com/wip/markdowntest.html)# lls nginx setup
